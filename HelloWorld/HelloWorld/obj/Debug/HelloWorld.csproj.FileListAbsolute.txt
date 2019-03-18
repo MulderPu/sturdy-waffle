@@ -1,0 +1,14 @@
+D:\Documents\Visual Studio 2017\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe.config
+D:\Documents\Visual Studio 2017\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe
+D:\Documents\Visual Studio 2017\HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
+D:\Documents\Visual Studio 2017\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csprojAssemblyReference.cache
+D:\Documents\Visual Studio 2017\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache
+D:\Documents\Visual Studio 2017\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
+D:\Documents\Visual Studio 2017\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
+D:\Documents\Visual Studio 2017\Sources\sturdy-waffle\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe.config
+D:\Documents\Visual Studio 2017\Sources\sturdy-waffle\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe
+D:\Documents\Visual Studio 2017\Sources\sturdy-waffle\HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
+D:\Documents\Visual Studio 2017\Sources\sturdy-waffle\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csprojAssemblyReference.cache
+D:\Documents\Visual Studio 2017\Sources\sturdy-waffle\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache
+D:\Documents\Visual Studio 2017\Sources\sturdy-waffle\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
+D:\Documents\Visual Studio 2017\Sources\sturdy-waffle\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
