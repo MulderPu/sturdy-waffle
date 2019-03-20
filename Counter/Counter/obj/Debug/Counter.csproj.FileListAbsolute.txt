@@ -1,0 +1,7 @@
+D:\Documents\Visual Studio 2017\Sources\sturdy-waffle\Counter\Counter\bin\Debug\Counter.exe.config
+D:\Documents\Visual Studio 2017\Sources\sturdy-waffle\Counter\Counter\bin\Debug\Counter.exe
+D:\Documents\Visual Studio 2017\Sources\sturdy-waffle\Counter\Counter\bin\Debug\Counter.pdb
+D:\Documents\Visual Studio 2017\Sources\sturdy-waffle\Counter\Counter\obj\Debug\Counter.csprojAssemblyReference.cache
+D:\Documents\Visual Studio 2017\Sources\sturdy-waffle\Counter\Counter\obj\Debug\Counter.csproj.CoreCompileInputs.cache
+D:\Documents\Visual Studio 2017\Sources\sturdy-waffle\Counter\Counter\obj\Debug\Counter.exe
+D:\Documents\Visual Studio 2017\Sources\sturdy-waffle\Counter\Counter\obj\Debug\Counter.pdb
