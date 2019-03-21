@@ -1,0 +1,7 @@
+D:\Documents\Visual Studio 2017\Sources\sturdy-waffle\ResourceTracker\ResourceTracker\bin\Debug\ResourceTracker.exe.config
+D:\Documents\Visual Studio 2017\Sources\sturdy-waffle\ResourceTracker\ResourceTracker\bin\Debug\ResourceTracker.exe
+D:\Documents\Visual Studio 2017\Sources\sturdy-waffle\ResourceTracker\ResourceTracker\bin\Debug\ResourceTracker.pdb
+D:\Documents\Visual Studio 2017\Sources\sturdy-waffle\ResourceTracker\ResourceTracker\obj\Debug\ResourceTracker.csprojAssemblyReference.cache
+D:\Documents\Visual Studio 2017\Sources\sturdy-waffle\ResourceTracker\ResourceTracker\obj\Debug\ResourceTracker.csproj.CoreCompileInputs.cache
+D:\Documents\Visual Studio 2017\Sources\sturdy-waffle\ResourceTracker\ResourceTracker\obj\Debug\ResourceTracker.exe
+D:\Documents\Visual Studio 2017\Sources\sturdy-waffle\ResourceTracker\ResourceTracker\obj\Debug\ResourceTracker.pdb
