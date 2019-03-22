@@ -1,0 +1,7 @@
+D:\Documents\Visual Studio 2017\Sources\sturdy-waffle\TravellingSalesman\TravellingSalesman\bin\Debug\TravellingSalesman.exe.config
+D:\Documents\Visual Studio 2017\Sources\sturdy-waffle\TravellingSalesman\TravellingSalesman\bin\Debug\TravellingSalesman.exe
+D:\Documents\Visual Studio 2017\Sources\sturdy-waffle\TravellingSalesman\TravellingSalesman\bin\Debug\TravellingSalesman.pdb
+D:\Documents\Visual Studio 2017\Sources\sturdy-waffle\TravellingSalesman\TravellingSalesman\obj\Debug\TravellingSalesman.csprojAssemblyReference.cache
+D:\Documents\Visual Studio 2017\Sources\sturdy-waffle\TravellingSalesman\TravellingSalesman\obj\Debug\TravellingSalesman.csproj.CoreCompileInputs.cache
+D:\Documents\Visual Studio 2017\Sources\sturdy-waffle\TravellingSalesman\TravellingSalesman\obj\Debug\TravellingSalesman.exe
+D:\Documents\Visual Studio 2017\Sources\sturdy-waffle\TravellingSalesman\TravellingSalesman\obj\Debug\TravellingSalesman.pdb
