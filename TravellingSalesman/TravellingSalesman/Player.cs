@@ -5,18 +5,26 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace TravellingSalesman
-{    
+{
     class Player
     {
         private string _name;
         private string _citiesNumber;
         private string _steps;
 
-        public Player(string name, string citiesNumber, string steps)
+        public Player(string name)
         {
             _name = name;
-            _citiesNumber = citiesNumber;
-            _steps = steps;
+        }
+
+        /// <summary>
+        /// Greeting players
+        /// </summary>
+        public void PrintGreeting()
+        {
+            string msg = "Good day " + _name + ", let's the game begun! ALL THE BEST!!!";
+            Console.WriteLine("***{0}***", msg);
+            Console.WriteLine();
         }
 
         public string Name
