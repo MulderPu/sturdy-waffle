@@ -41,8 +41,13 @@ namespace TravellingSalesman
             Console.Clear();
             board.PrintBoard();
 
+            board.SetCityToBoard();
+            board.ReprintBoard();
+
             // prevent quit
             Console.ReadLine();
+
+            
         }
     }
 }
