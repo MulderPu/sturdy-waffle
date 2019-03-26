@@ -40,7 +40,9 @@ namespace TravellingSalesman
             }
         }
 
-        public void ReprintBoard() {
+        public void ReprintBoard()
+        {
+            Console.Clear();
             for (int i = 0; i < _board.GetLength(0); i++)
             {
                 Console.WriteLine("");
@@ -56,7 +58,7 @@ namespace TravellingSalesman
 
         public void SetCityToBoard()
         {
-            int number = 4;
+            int number = (_X + _Y) / 2;
             var fooArray = Alphabet.ToCharArray().Select(c => c.ToString()).ToArray();
             String[] randomLetter = new String[number];
             Random rnd = new Random();
@@ -73,11 +75,12 @@ namespace TravellingSalesman
                     i++;
                 }
 
-                if (i == randomLetter.Length) {
+                if (i == randomLetter.Length)
+                {
                     flag = false;
                 }
             }
-            
+
             foreach (var item in randomLetter)
             {
                 bool flag2 = true;
@@ -94,6 +97,49 @@ namespace TravellingSalesman
                         flag2 = false;
                     }
                 }
+            }
+        }
+
+        public void SetPlayerPosition(int posX,int posY)
+        {
+            _board[posX, posY] = "@";
+        }
+
+        public void SetPreviousPosition(int posX, int posY)
+        {
+            _board[posX, posY] = "*";
+        }
+
+        public void ShowInstruction()
+        {
+            Console.WriteLine("Press '6' to move right");
+            Console.WriteLine("Press '4' to move left");
+            Console.WriteLine("Press '8' to move up");
+            Console.WriteLine("Press '2' to move down");
+            Console.Write("Please choose your next action (Press 'Q' to quit):");
+        }
+
+        public int X
+        {
+            get
+            {
+                return _X;
+            }
+            set
+            {
+                _X = value;
+            }
+        }
+
+        public int Y
+        {
+            get
+            {
+                return _Y;
+            }
+            set
+            {
+                _Y = value;
             }
         }
 

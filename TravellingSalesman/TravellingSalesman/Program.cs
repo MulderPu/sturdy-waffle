@@ -40,9 +40,49 @@ namespace TravellingSalesman
             Board board = new Board(tile1, tile2);
             Console.Clear();
             board.PrintBoard();
-
             board.SetCityToBoard();
-            board.ReprintBoard();
+
+
+            bool cont = true;
+            while (cont)
+            {
+                int positionX = player1.PosX;
+                int positionY = player1.PosY;
+                board.SetPlayerPosition(positionX, positionY);
+                // reprint game board                
+                board.ReprintBoard();
+                //board.DisplaySteps();
+                board.ShowInstruction();
+
+                ConsoleKeyInfo command = Console.ReadKey();
+                //Console.ReadLine();
+                //String command = Console.ReadLine();
+                switch (command.Key)
+                {
+                    case ConsoleKey.Q:
+                        cont = false;
+                        Console.WriteLine("Aw! You have quit the game.");
+                        break;
+                    case ConsoleKey.D6:
+                        int max_tilesY = board.Y;
+                        int right_gaps = max_tilesY - 1;
+                        int next_pos = positionY + 1;
+
+                        if (next_pos <= right_gaps)
+                        {
+                            board.SetPreviousPosition(positionX, positionY);
+                            player1.PosY = next_pos;
+                        }
+                        Console.WriteLine(next_pos);
+                        Console.WriteLine(max_tilesY);
+                        Console.ReadLine();
+                        break;
+                    default:
+
+                        break;
+                }
+            }
+            
 
             // prevent quit
             Console.ReadLine();
