@@ -9,14 +9,14 @@ namespace TravellingSalesman
     class Player
     {
         private string _name;
-        private string _citiesNumber;
-        private string _steps;
-        int _posX;
-        int _posY;
+        private int _steps;
+        private int _posX;
+        private int _posY;
 
         public Player(string name)
         {
             _name = name;
+            _steps = 0;
             _posX = 0;
             _posY = 0;
         }
@@ -29,6 +29,23 @@ namespace TravellingSalesman
             string msg = "Good day " + _name + ", let's the game begun! ALL THE BEST!!!";
             Console.WriteLine("***{0}***", msg);
             Console.WriteLine();
+        }
+
+        public void StepIncrease()
+        {
+            _steps++;
+        }
+
+        public int Steps
+        {
+            get
+            {
+                return _steps;
+            }
+            set
+            {
+                _steps = value;
+            }
         }
 
         public int PosX

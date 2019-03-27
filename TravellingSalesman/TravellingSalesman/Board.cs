@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace TravellingSalesman
 {
@@ -13,6 +14,8 @@ namespace TravellingSalesman
         int _Y = 0;
         public const string Alphabet =
         "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        String[] randomLetter;
+        int _citiesLeft;
 
         public Board(int tilesX, int tilesY)
         {
@@ -55,12 +58,29 @@ namespace TravellingSalesman
                 Console.WriteLine();
             }
         }
+        
+        public bool DisplaySteps(Player player)
+        {
+            Console.WriteLine("Total steps taken : {0} Step(s). [Number of cities yet to cover = {1}]", player.Steps, _citiesLeft);
+            if (_citiesLeft == 0)
+            {
+                // save score to file
+                string saveData = player.Name + "\t\t" + player.Steps + "\t\t" + randomLetter.Length;
+                string fileName = "score.txt";
+                using (StreamWriter writetext = new StreamWriter(fileName, true))
+                {
+                    writetext.WriteLine(saveData);
+                }
+                return true;
+            }
+            return false;
+        }
 
         public void SetCityToBoard()
         {
             int number = (_X + _Y) / 2;
             var fooArray = Alphabet.ToCharArray().Select(c => c.ToString()).ToArray();
-            String[] randomLetter = new String[number];
+            randomLetter = new String[number];
             Random rnd = new Random();
 
             bool flag = true;
@@ -81,6 +101,9 @@ namespace TravellingSalesman
                 }
             }
 
+            // set city number
+            _citiesLeft = randomLetter.Length;
+
             foreach (var item in randomLetter)
             {
                 bool flag2 = true;
@@ -100,8 +123,12 @@ namespace TravellingSalesman
             }
         }
 
-        public void SetPlayerPosition(int posX,int posY)
+        public void SetPlayerPosition(int posX, int posY)
         {
+            if (_board[posX, posY] != "*")
+            {
+                _citiesLeft--;
+            }
             _board[posX, posY] = "@";
         }
 
